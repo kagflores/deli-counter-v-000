@@ -2,13 +2,13 @@
 require 'pry'
 def line (deli_line)
   index = 0
+  lineup = []
   lineup_arrange = []
   if deli_line.size == 0
     puts "The line is currently empty."
   else
     katz_deli.each do |guest|
       index += 1
-      lineup = []
       lineup << "#{index}. #{guest}"
     end
     lineup_arrange = lineup.join(" ")

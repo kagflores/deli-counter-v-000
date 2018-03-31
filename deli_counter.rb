@@ -10,11 +10,11 @@ def line (deli_line)
     katz_deli.each do |guest|
       index += 1
       lineup << "#{index}. #{guest}"
-      binding.pry
     end
     lineup_arrange = lineup.join(" ")
     puts "The line is currently: #{lineup_arrange}"
   end
+  binding.pry
 end
 
 def take_a_number (deli_line, name)

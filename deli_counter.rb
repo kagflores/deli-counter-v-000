@@ -14,7 +14,6 @@ def line (deli_line)
     lineup_arrange = lineup.join(" ")
     puts "The line is currently: #{lineup_arrange}"
   end
-  #binding.pry
 end
 
 def take_a_number (deli_line, name)
